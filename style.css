@@ -1,0 +1,103 @@
+
+body{
+    height: 1080px;
+    min-width: 700px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+#head{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+img{
+
+    width: 120px;
+}
+header{
+    font: bolder 26pt Arial;
+    text-align: center;
+    user-select: none;
+}
+
+
+#timersBtn{
+    display: flex;
+    padding: 3px;
+    background-color:rgb(34, 90, 124);
+    margin: 20px 50px;
+    border-radius: 10px;
+    
+}
+.uiBtn{
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    flex: 1;
+    font: bold 14pt Roboto;
+    background-color: rgb(34, 90, 124);
+    color: white;
+    min-width: 200px;
+    flex: 1;
+}
+#timerBtn:hover, #breakBtn:hover, #longBreakBtn:hover{
+    filter: brightness(80%) !important;
+}
+#timeBox{
+    position: relative;
+    margin: 10px auto;
+    width: 600px;
+    height: 200px;
+}
+#time{
+    user-select: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    font: bolder 100px Arial;
+}
+
+.btns{
+    padding: 8px 30px;
+    text-align: center;
+    font: bold 14pt Arial;
+    cursor: pointer;
+}
+#start{
+    background-color: rgb(114, 223, 114);
+    border-color: rgb(114, 223, 114);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.329) 5px 5px 10px;
+}
+#stop{
+    background-color: rgb(230, 80, 69);
+    border-color: rgb(230, 80, 69);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.329) 5px 5px 10px;
+}
+#reset{
+    box-shadow: rgba(0, 0, 0, 0.329) 5px 5px 10px;
+}
+#start:hover{
+    background-color: rgb(105, 189, 105);
+}
+#stop:hover{
+    background-color: rgb(202, 78, 78);
+}
+
+
+#ftext{
+    font: bold 16px Roboto;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 320px;
+}
